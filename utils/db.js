@@ -1,11 +1,11 @@
 import knex from "knex";
 const builder = knex({
-  client: 'mysql',
+  client: 'postgres',
   connection: {
     host : '127.0.0.1',
-    user : "root",
-    password : "",
-    database : "node-api"
+    user : "postgres",
+    password : "Vonic@Team281045",
+    database : "trainning"
   },
   pool: { min: 0, max: 7 } // connectionpool có tối đa 7 connection trong 1 lúc.
 });

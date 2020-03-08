@@ -21,6 +21,6 @@ APP.get('/', (req, res) => {
 // THÊM: ProductService sẽ handle những request truy cập vào URL: /api/product
 APP.use("/api/product", ProductService);
 
-APP.listen(8082, () => {
-  console.log('SERVER IS LISTENING AT PORT 8082');
+APP.listen(3000, () => {
+  console.log('SERVER IS LISTENING AT PORT 3000');
 });
